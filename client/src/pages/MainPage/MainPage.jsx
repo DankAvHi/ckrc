@@ -8,7 +8,7 @@ import { ArrowUpIcon, SlideImage } from "../../shared";
 export const MainPage = () => {
     return (
         <main className={styles.MainPage}>
-            <Swiper className={styles.slider} modules={[Navigation]} navigation={}>
+            <Swiper className={styles.slider} modules={[Navigation]}>
                 <SwiperSlide className={styles.slide}>
                     <img className={styles.slideImage} src={SlideImage} alt="" />
                     <div className={styles.slideDescription}>
