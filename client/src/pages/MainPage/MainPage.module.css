@@ -55,7 +55,9 @@
     padding: 32px 0;
 
     height: 334px;
-    overflow-y: scroll;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-all;
 
     font-size: 22px;
     color: white;
