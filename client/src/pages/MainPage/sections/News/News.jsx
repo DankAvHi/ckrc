@@ -31,27 +31,39 @@ export const News = () => {
 
                 <SwiperSlide className={styles.slide}>
                     <img className={styles.slideImage} src={NewsImage} alt="" />
+                    <h3 className={styles.slideName}>{`Театр`}</h3>
                 </SwiperSlide>
                 <SwiperSlide className={styles.slide}>
                     <img className={styles.slideImage} src={NewsImage} alt="" />
+                    <h3 className={styles.slideName}>{`Театр`}</h3>
                 </SwiperSlide>
                 <SwiperSlide className={styles.slide}>
                     <img className={styles.slideImage} src={NewsImage} alt="" />
+                    <h3 className={styles.slideName}>{`Театр`}</h3>
                 </SwiperSlide>
                 <SwiperSlide className={styles.slide}>
                     <img className={styles.slideImage} src={NewsImage} alt="" />
+                    <h3 className={styles.slideName}>{`Театр`}</h3>
                 </SwiperSlide>
                 <SwiperSlide className={styles.slide}>
                     <img className={styles.slideImage} src={NewsImage} alt="" />
+                    <h3 className={styles.slideName}>{`Театр`}</h3>
                 </SwiperSlide>
                 <SwiperSlide className={styles.slide}>
                     <img className={styles.slideImage} src={NewsImage} alt="" />
+                    <h3 className={styles.slideName}>{`Театр`}</h3>
                 </SwiperSlide>
                 <SwiperSlide className={styles.slide}>
                     <img className={styles.slideImage} src={NewsImage} alt="" />
+                    <h3 className={styles.slideName}>{`Театр`}</h3>
                 </SwiperSlide>
                 <SwiperSlide className={styles.slide}>
                     <img className={styles.slideImage} src={NewsImage} alt="" />
+                    <h3 className={styles.slideName}>{`Театр`}</h3>
+                </SwiperSlide>
+                <SwiperSlide className={styles.slide}>
+                    <img className={styles.slideImage} src={NewsImage} alt="" />
+                    <h3 className={styles.slideName}>{`Театр`}</h3>
                 </SwiperSlide>
 
                 <SwiperButtonNext />
