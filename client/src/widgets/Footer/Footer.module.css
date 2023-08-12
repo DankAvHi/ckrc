@@ -6,8 +6,8 @@
 }
 
 .wave {
-    width: 100%;
-    height: 121px;
+    max-width: 100%;
+    min-height: 121px;
     object-fit: cover;
 }
 .content {
