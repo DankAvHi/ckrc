@@ -1,0 +1,30 @@
+.react-calendar {
+    border-radius: 16px;
+
+    background-color: #1e1e1e;
+}
+
+.react-calendar__navigation > * {
+    color: white;
+}
+
+.react-calendar__month-view__weekdays {
+    color: white;
+}
+
+.react-calendar__tile {
+    border-radius: 16px;
+
+    color: white;
+}
+
+.react-calendar__tile--now {
+    background-color: white;
+    color: #1e1e1e;
+}
+
+.react-calendar__tile--active,
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+    background-color: #cf4157;
+}

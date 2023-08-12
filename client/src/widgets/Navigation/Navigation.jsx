@@ -14,6 +14,9 @@ export const Navigation = () => {
                     <a className={styles.link} href="#">{`Афиша`}</a>
                 </li>
                 <li className={styles.linkContainer}>
+                    <a className={styles.link} href="#">{`Новости`}</a>
+                </li>
+                <li className={styles.linkContainer}>
                     <a className={styles.link} href="#">{`Мероприятия`}</a>
                 </li>
                 <li className={styles.linkContainer}>

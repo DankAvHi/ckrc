@@ -6,4 +6,9 @@ export {
     HeaderBackgroundImage,
     SlideImage,
     ArrowUpIcon,
+    EventImage,
+    ArrowDownIcon,
+    ArrowLeftIcon,
+    NewsImage,
+    FooterWaveIcon,
 } from "./assets";
