@@ -59,3 +59,42 @@
     color: white;
     font-weight: 400;
 }
+
+.sliderButton {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    z-index: 10;
+
+    border-radius: 100%;
+
+    background-color: rgba(255, 255, 255, 0.37);
+
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+.sliderButton_prev {
+    left: 10px;
+}
+.sliderButton_next {
+    right: 10px;
+}
+
+.sliderButtonIcon {
+    width: 12px;
+    height: 24px;
+}
+.sliderButtonIcon_prev {
+    position: relative;
+    right: 2px;
+}
+.sliderButtonIcon_next {
+    position: relative;
+    left: 1px;
+}
