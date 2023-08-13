@@ -6,5 +6,15 @@ import { ReactComponent as ArrowUpIcon } from "./arrowUp.svg";
 import { ReactComponent as ArrowDownIcon } from "./arrowDown.svg";
 import { ReactComponent as ArrowLeftIcon } from "./arrowLeft.svg";
 import { ReactComponent as FooterWaveIcon } from "./footerWave.svg";
+import { ReactComponent as NewsImagePlaceholderIcon } from "./newsImagePlaceholder.svg";
 
-export { MapPinIcon, CallIcon, ArrowRightIcon, ArrowUpIcon, ArrowDownIcon, ArrowLeftIcon, FooterWaveIcon };
+export {
+    MapPinIcon,
+    CallIcon,
+    ArrowRightIcon,
+    ArrowUpIcon,
+    ArrowDownIcon,
+    ArrowLeftIcon,
+    FooterWaveIcon,
+    NewsImagePlaceholderIcon,
+};

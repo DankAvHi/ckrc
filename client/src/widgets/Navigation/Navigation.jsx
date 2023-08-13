@@ -12,7 +12,7 @@ export const Navigation = () => {
                     <Link className={styles.link} to="#">{`Основные сведения`}</Link>
                 </li>
                 <li className={styles.linkContainer}>
-                    <Link className={styles.link} to="#">{`Афиша`}</Link>
+                    <Link className={styles.link} to="poster">{`Афиша`}</Link>
                 </li>
                 <li className={styles.linkContainer}>
                     <Link className={styles.link} to="news">{`Новости`}</Link>

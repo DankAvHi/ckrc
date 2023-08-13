@@ -1,0 +1,25 @@
+.PosterPage {
+}
+
+.poster {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.events {
+}
+.event {
+}
+
+.eventLink {
+    border-radius: 16px;
+    border: 2px solid #1e1e1e;
+
+    padding: 8px 43px;
+
+    background: #cf4157;
+
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}

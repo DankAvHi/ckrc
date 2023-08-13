@@ -1,6 +1,4 @@
 .News {
-    padding-top: 64px;
-
     display: flex;
     gap: 36px;
     flex-direction: column;

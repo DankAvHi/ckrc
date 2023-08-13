@@ -11,5 +11,8 @@ export {
     ArrowLeftIcon,
     NewsImage,
     FooterWaveIcon,
+    NewsImagePlaceholderIcon,
+    PosterPlaceholder1Image,
+    PosterPlaceholder2Image,
 } from "./assets";
 export { PageWrapper, SectionHeading } from "./UI";
