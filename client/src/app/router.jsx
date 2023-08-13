@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import { MainPage } from "../pages";
+import { MainPage, NewsPage } from "../pages";
 import App from "./App";
 
 export const router = createBrowserRouter([
@@ -10,6 +10,10 @@ export const router = createBrowserRouter([
             {
                 path: "/",
                 element: <MainPage />,
+            },
+            {
+                path: "/news",
+                element: <NewsPage />,
             },
         ],
     },

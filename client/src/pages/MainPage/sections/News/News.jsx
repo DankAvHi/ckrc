@@ -2,7 +2,7 @@ import styles from "./News.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useSwiper } from "swiper/react";
 import "swiper/css";
-import { ArrowLeftIcon, ArrowRightIcon, NewsImage } from "../../../../shared";
+import { ArrowLeftIcon, ArrowRightIcon, NewsImage, SectionHeading } from "../../../../shared";
 
 const SwiperButtonPrev = ({ children }) => {
     const swiper = useSwiper();
@@ -25,7 +25,7 @@ const SwiperButtonNext = ({ children }) => {
 export const News = () => {
     return (
         <section className={styles.News}>
-            <h2 className={styles.heading}>{`Новости`}</h2>
+            <SectionHeading level={2}>{`Новости`}</SectionHeading>
             <Swiper className={styles.slider} slidesPerView={4} spaceBetween={26}>
                 <SwiperButtonPrev />
 

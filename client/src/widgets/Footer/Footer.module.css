@@ -1,4 +1,6 @@
 .Footer {
+    margin-top: auto;
+
     padding-top: 64px;
 
     display: flex;

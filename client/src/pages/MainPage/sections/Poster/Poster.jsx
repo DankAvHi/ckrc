@@ -1,7 +1,7 @@
 import "./Calendar.css";
 import styles from "./Poster.module.css";
 import Calendar from "react-calendar";
-import { ArrowDownIcon, ArrowUpIcon, EventImage } from "../../../../shared";
+import { ArrowDownIcon, ArrowUpIcon, EventImage, SectionHeading } from "../../../../shared";
 import { useState } from "react";
 export const Poster = () => {
     const [eventExpand, setEventExpand] = useState(false);
@@ -12,7 +12,7 @@ export const Poster = () => {
     const ArrowDownIconExpandClassName = eventExpand ? styles.ArrowDownIcon_expand : ``;
     return (
         <section className={styles.Poster}>
-            <h2 className={styles.heading}>{`Афиша`}</h2>
+            <SectionHeading level={2}>{`Афиша`}</SectionHeading>
             <div className={styles.content}>
                 <div className={styles.eventsContainer}>
                     <div className={`${styles.events} ${eventsExpandClassName}`}>

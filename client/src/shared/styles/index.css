@@ -41,8 +41,14 @@ span {
 }
 
 html,
-body {
+body,
+#root {
     min-height: 100svh;
 
     background-color: #fff;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
 }

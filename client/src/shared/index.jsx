@@ -12,3 +12,4 @@ export {
     NewsImage,
     FooterWaveIcon,
 } from "./assets";
+export { PageWrapper, SectionHeading } from "./UI";
