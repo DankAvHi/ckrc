@@ -2,6 +2,10 @@
     border-radius: 16px;
 
     background-color: #1e1e1e;
+
+    max-width: 405px;
+    height: 239px;
+    width: 100%;
 }
 
 .react-calendar__navigation > * {
